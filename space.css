@@ -1,0 +1,1113 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Poppins&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', sans-serif;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+*::--webkit-scrollbar-track {
+    background: transparent;
+}
+body::--webkit-scrollbar-thumb {
+    background-color: #0057FF;
+}
+body::--webkit-scrollbar{
+    width: 1rem;
+}
+
+
+
+section {
+    padding: 3rem 9%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    right: 0;
+       border-bottom: .3rem solid #eee;
+}
+.header .navbar a {
+    margin-right: 7rem;
+    color: #eee;
+    font-size: 2rem;
+}
+.header.active {
+    backdrop-filter: blur(20px);
+}
+.header .navbar a:hover {
+    color: #0057FF;
+}
+.header .logo {
+    font-family: 'Goblin One', serif;
+    font-size: 2.5rem;
+    color: #0057FF;
+}
+.home-1 {
+    background:url(/assets/rectangle-50.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home-1 h1 {
+    margin-top: 6rem;
+    color: #eee;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.home-2 {
+    background:url(/assets/rectangle-47.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 90vh;
+    
+}
+.home-2 .container {
+    margin-top: 20rem;
+
+}
+ .home-2 .container  h1 {
+    text-align: right;
+    color: #eee;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+ }
+ .home-2 .container button {
+    margin-top: 4rem;
+    padding: 1rem 3rem;
+    color: #eee;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    background-color: rgba(120, 120, 120, 0.3);
+    cursor: pointer;
+ }
+.home-3 {
+    background:url(/assets/rectangle-48.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 90vh;
+    
+}
+.home-3 .container {
+    margin-top: 20rem;
+
+}
+ .home-3 .container  h1 {
+    text-align: right;
+    color: #eee;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+ }
+ .home-3 .container button {
+    margin-top: 4rem;
+    padding: 1rem 3rem;
+    color: #eee;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    background-color: rgba(120, 120, 120, 0.3);
+    cursor: pointer;
+ }
+
+ .home-4 {
+    /* margin-top: -20rem; */
+    background:url(/assets/rectangle-49-bg.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    /* height: 70vh; */
+    
+}
+.home-4 .container {
+    padding-top: 30rem;
+    padding: 3rem 9%;
+
+}
+ .home-4 .container  h1 {
+    color: #eee;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+ }
+ .home-4 .container button {
+    margin-top: 4rem;
+    padding: 1rem 3rem;
+    color: #eee;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    background-color: rgba(120, 120, 120, 0.3);
+    cursor: pointer;
+ }
+
+ .home-4 .buttons {
+    margin-top: 5rem;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+ }
+ .home-4 .buttons a{
+    padding: 1.5rem 3rem;
+    color: #eee;
+    background-color: #0057FF;
+    font-size: 2rem;
+
+ }
+ .home-4 .buttons a:hover {
+    background-color: #4b7fe8;
+ }
+ .home-4 .buttons a:nth-child(1) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+ }
+ .home-4 .buttons a:nth-child(2) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+ }
+.login{
+ background:url(/assets/rectangle-5-bg.png) no-repeat, rgba(0,0,0,.7);
+ background-position: center;
+ background-size: cover;
+ background-blend-mode: color;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+}
+
+.login .box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-top: 9rem;
+}
+
+.login .box-container .content h3{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 500;
+}
+.login .box-container .content {
+    width: 50%;
+}
+
+.login .box-container .content h1 {
+    font-size: 5rem;
+    color: #0057FF;
+}
+.login .box-container .content p {
+    color: #eee;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+    text-transform: none;
+    line-height: 1.5;
+}
+.login .box-container .content .btn-con {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.login .box-container .content .button {
+    padding: 1.5rem 3rem;
+    color: #eee;
+    background-color: #0057FF;
+    font-size: 2rem;
+    display: block;
+    float: left;
+    margin-top: 3rem;
+    justify-content: flex-end;
+    width: fit-content;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.login .box-container .content .button:hover {
+    background-color:#4b7fe8 ;
+}
+
+.login .box-container form {
+    padding: 2rem;
+    background-color: #000;
+    width: 40%;
+    border-radius: 1rem;
+    text-transform: none;
+}
+.login .box-container form h1 {
+    padding: .5rem 1rem;
+    background-color: #fff;
+    color: #0057FF;
+    text-align: center;
+    border-radius: .5rem;
+    margin: 2.5rem 0;
+
+    font-size: 3rem;
+}
+.login .box-container form .input-box {
+    width: 100%;
+    height: 4rem;
+    background-color: transparent;
+    margin: 1.5rem 0;
+}
+.login .box-container form .input-box .input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-bottom: .3rem solid #0057FF;
+    font-size: 1.7rem;
+    color: #fff;
+    padding: .5rem 1rem;
+}
+.login .box-container form .forget {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.login .box-container form .forget:hover {
+    color: #0057FF;
+    text-decoration: underline;
+}
+.login .box-container form .button {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    color: #eee;
+    text-align: center;
+    background-color: #0057FF;
+    font-size: 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.login .box-container form .button:hover {
+    background-color: #4b7fe8;
+}
+.login .box-container form p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-transform: none;
+}
+.login .box-container form a {
+    margin-top: 1rem;
+}
+.login .box-container form h4 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.login .box-container form .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #eee;
+    margin: 0 auto;
+    font-size: 5rem;
+    width: 100%;
+    cursor: pointer;
+}
+.login .box-container form p a {
+    color: #0057FF;
+}
+.login .box-container form p a:hover {
+    text-decoration: underline;
+}
+.login .box-container form .icon-container i:hover {
+    color: #0057FF;
+}
+
+.signup {
+    background: url(/assets/rectangle-5-bg.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+}
+.signup .box {
+    width:90%;
+    /* text-align: center; */
+    background-color: #000;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.signup .box h1 {
+    font-size: 3.5rem;
+    padding: .5rem 0;
+    text-align: center;
+    color: #0057FF;
+    font-family: 'Goblin One', serif;
+}
+.signup .box h3 {
+    font-size: 2rem ;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+.signup .box form {
+    margin-top: 2rem;
+}
+.signup .box form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.signup .box form .flex .input-box {
+    flex: 1 1 41rem;
+    height: 5rem;
+    margin: 1rem 0;
+}
+.signup .box form .flex .input-box label {
+    color: #fff;
+    display: block;
+    font-size: 1.7rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.signup .box form .flex .input-box input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: none;
+}
+.signup .box form button {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    background-color: #0057FF;
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+.signup .box form button:hover {
+    background-color: #4b7fe8;
+}
+
+.signup .box form p {
+    margin-top: 1rem;
+    text-align: center;
+    color: #eee;
+    font-size: 1.6rem;
+    text-transform: none;
+}
+.signup .box form p a {
+    color: #0057FF;
+}
+.signup .box form p a:hover {
+    text-decoration: underline;
+}
+
+.forget-container{
+    background: url(/assets/background-bg.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+}
+.forget-container .box {
+    width: 50rem;
+    padding: 2rem;
+}
+.forget-container .box input {
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0;
+    background: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    text-transform: none;
+    padding: .5rem 1rem;    
+}
+.forget-container .box label {
+    font-size: 2rem;
+    color: #fff;
+}
+.forget-container .box h1 {
+    margin: 3rem 0;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    text-transform: none;
+    font-weight: 500;
+
+}
+.forget-container .box .btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  
+}
+.forget-container .box .btn .button {
+    padding: 1.5rem 3rem;
+  color: #eee;
+  background-color: #0057FF;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+.forget-container .box .btn .button:hover {
+    background-color: #4b7fe8;
+}
+.forget-container .box p {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: none;
+}
+.forget-container .box p a {
+    color: #0057FF;
+}
+.forget-container .box p a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    background: url(/assets/background.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+}
+.contact .box-container {
+    padding-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.contact .box-container form {
+    flex: 1 1 30rem;
+    padding: 3rem;
+    border-radius: 20px;
+    border:.3rem solid rgb(60, 7, 60);
+    background-color:  rgb(107, 46, 107,.4);
+}
+.contact .box-container form label {
+    color: #fff;
+    font-size: 2rem;
+}
+.contact .box-container .details {
+    flex: 1 1 41rem;
+}
+.contact .box-container form input,
+.contact .box-container form textarea {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(60, 7, 60);
+    border-radius: .5rem;
+    margin: .5rem 0;
+    border-radius: 10px;
+    padding: .3rem 1rem;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    border: .3rem solid rgb(107, 46, 107);
+}
+.contact .box-container form textarea {
+    height: 20rem;
+    resize: none;
+}
+.contact .box-container form .btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+.contact .box-container form .btn button {
+    padding: 1.5rem 3rem;
+  color: #eee;
+  background-color: #0057FF;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+.contact .box-container form .btn button:hover {
+    background-color: #4b7fe8;
+}
+.contact .box-container .details {
+    padding: 3rem;
+    border:.3rem solid rgb(60, 7, 60);
+    border-radius: 20px;
+    color: #fff;
+    background-color:  rgb(107, 46, 107,.4);
+
+}
+.contact .box-container .details h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0;
+    text-transform: none;
+    font-weight: 500;
+}
+.contact .box-container .details h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: none;
+}
+
+
+.team-1 {
+    background: url(/assets/rectangle-55.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    padding-top: 13rem;
+    text-transform: none;
+}
+
+.team-1 .box-container {
+    padding: 3rem 9%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+
+}
+
+.team-1 .box-container .image-container .image {
+   width: 35rem;
+   height: 40rem;
+   overflow: hidden;
+   border-radius: 20px;
+   border: .3rem solid rgb(65, 28, 65);
+}
+.team-1 .box-container .image-container .image img {
+    width: 100%;
+    height: 100%;
+    transition: .4s ease;
+    object-fit: cover;
+}
+.team-1 .box-container .image-container .image img:hover {
+    transform: scale(1.02);
+}
+.team-1 .box-container .image h1 {
+    color: #fff;
+}
+
+.team-1 .box-container .content {
+    flex:1 1 41rem;
+    padding: 2.5rem;
+    border: .3rem solid rgb(65, 28, 65);
+    border-radius: 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.team-1 .box-container .content p {
+    line-height: 2;
+    text-transform: none;
+}
+
+.team-1 .box-container .image-container h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.team-1 .btn-container {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.team-1 .btn-container .btn {
+    padding: 1.5rem 3rem;
+    color: #eee;
+    background-color: #0057FF;
+    font-size: 2rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.team-1 .btn-container .btn:hover {
+    background-color: #4b7fe8; ;
+}
+
+
+.faq {
+    background: url(/assets/background-bg.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    padding:13rem 13rem;
+    text-transform: none;
+}
+
+.faq .box {
+    color: #fff;
+    border: .3rem solid rgb(65, 28, 65);
+    padding: 3rem;
+    border-radius: 10px;
+}
+.faq .box h1 {
+    font-weight: 500;
+    padding-bottom: 1rem;
+    text-transform: none;
+}
+.faq .box p {
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #eee;
+    text-transform: none;
+    padding: 1rem 0;
+}
+.faq .box .child {
+    padding-top: 3rem;
+}
+
+.faq  .btn-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.faq   .btn-container .btn{
+    padding: 1.5rem 3rem;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    color: #eee;
+    background-color: #0057FF;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+.faq  .btn-container .btn:hover {
+    background-color: #4b7fe8;
+}
+
+.star-1 {
+    background: url(/assets/rectangle-21-bg.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    text-transform: none;
+}
+
+.star-1 .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding:13rem 13rem;
+}
+.star-1 .box-container .box {
+    width: 40rem;
+    height: 46rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.star-1 .box-container .box:hover .layer {
+    transform: translateY(0);
+}
+.star-1 .box-container .box img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    border: .3rem solid rgb(65, 28, 65);
+    height: 100%;
+}
+.star-1 .box-container .box .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 500;
+    transform: translateY(100%);
+    transition: .4s ease;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2;
+    background: linear-gradient(rgba(0,0,0,.5), rgb(51, 19, 51));
+}
+.star-1 .box-container .box .layer h3 {
+    font-weight: 500;
+    text-transform: none;
+}
+.star-1 .box-container .content {
+    height: 50rem;
+    width: 60rem;
+    border-radius: 20px;
+    
+    padding: 2rem;
+    border: .3rem solid rgb(65, 28, 65);
+    padding: 2rem;
+    background-color:  rgb(51, 19, 51, .5);
+    color: #fff;
+}
+.star-1 .box-container .content .flex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .2rem solid #fff;
+    font-size: 1.5rem;
+    margin: 3.5rem 0;
+    
+}
+.star-1 .box-container .content .flex h3 {
+    font-weight: 500;
+    opacity: 1;
+    padding-bottom: 1rem;
+    text-transform: none;
+}
+.star-1 h1 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    width: 40rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.star-1 .button {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5rem;
+}
+.star-1 .button .btn {
+    padding: 1.5rem 3rem;
+  color: #eee;
+  background-color: #0057FF;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;  
+}
+.star-1 .button .btn:hover {
+    background-color: #4b7fe8;
+}
+
+.flight-1 {
+    background: url(/assets/rectangle-21-bg.png) no-repeat, rgba(0,0,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    text-transform: none;
+}
+.flight-1 .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.flight-1 .box-container .box {
+    width: 90rem;
+    height: 50rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    border: .3rem solid rgb(65, 28, 65);
+}
+.flight-1 .box-container .box img {
+    width: 100%;
+    height: 100%;
+}
+.flight-1 .box-container .box .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.5), rgb(51, 19, 51));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(200%);
+    transition: .5s ease;
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.flight-1 .box-container .box .layer h3 {
+    line-height: 2;
+    text-transform: none;
+}
+.flight-1 .box-container .box:hover .layer {
+   transform: translateY(0);
+}
+
+.flight-1 h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.flight-1 .button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.flight-1 .button .btn {
+    padding: 1.5rem 3rem;
+    color: #eee;
+    background-color: #0057FF;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.flight-1 .button .btn:hover {
+    background-color: #4b7fe8;
+}
+#menuBtn {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .header {
+        padding: 2rem 4%;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+         background-color: rgba(0,0,0,.7);
+        transform: translateY(-120%);
+        z-index: 100000;
+    }
+    .header .navbar.active {
+        transform: translateY(0);
+    }
+
+    .header .navbar a {
+        padding: 1.5rem;
+        margin: 2rem 0;
+        display: block;
+    }
+    #menuBtn {
+        display: block;
+    }
+
+}
+
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+    .login .box-container {
+        flex-direction: column;
+    }
+    .login .box-container form {
+        width: 60%;
+    }
+    .login .box-container .content {
+        width: 60%;
+    }
+    section.login {
+        padding: 2rem 0;
+    }
+    .team-1 .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq {
+        padding:13rem 5rem;
+    }
+    .contact {
+        height: 120vh;
+        
+    }
+    .contact .box-container {
+        flex-direction: column;
+    }
+    .flight-1 .box-container .box {
+        width:70rem;
+        height: 40rem;
+    }
+    .flight-1 .box-container .box .layer {
+        padding: 2rem;
+        line-height: 1.3;
+    }
+    .flight-1 .box-container .box .layer h3 {
+        font-size: 1.6rem;
+    }
+    
+    
+}
+
+
+@media (max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    .home-4 {
+        padding: 7rem 0;
+    }
+    .flight-1 .box-container .box {
+        width:60rem;
+        height: 40rem;
+    }
+    .flight-1 .box-container .box .layer {
+        font-size: 1.1rem;
+        padding: .5rem;
+        line-height: 1;
+    }
+    
+}
+
+
+@media (max-width:550px) {
+    html {
+        font-size: 40%;
+    }
+    section {
+        padding: 2rem 5%;
+    }
+    .home-4 {
+        padding: 7rem 0;
+    }
+    .login .box-container .content h1 {
+        font-size: 4rem;
+    }
+    .flight-1 .box-container .box .layer {
+        font-size: .7rem;
+        padding: 1rem;
+        line-height: .8;
+    }
+    .flight-1 .box-container .box .layer h3 {
+        font-size: 1.3rem;
+    }
+    
+    
+}
+
+
+
+
+@media (max-width:450px) {
+    html {
+        font-size: 35%;
+    }
+    section {
+        padding: 2rem 5%;
+    }
+    .home-3 {
+        padding-top: 15rem;
+    }
+    .flight-1 .box-container .box {
+        width:50rem;
+        height: 25rem;
+    }
+}
+
+
+
+@media (max-width:370px) {
+    html {
+        font-size: 35%;
+    }
+    section {
+        padding: 1rem 5%;
+    }
+    .home-3 {
+        padding-top: 15rem;
+    }
+    .home-2 {
+        padding-top: 20rem;
+    }
+    .home-3 {
+        padding-top: 20rem;
+    }
+}
